@@ -6,5 +6,11 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "drawdata>=0.5.0",
+    "numpy>=2.4.2",
     "pandas>=3.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
 ]
